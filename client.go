@@ -114,7 +114,7 @@ func (p *Provider) setRecord(ctx context.Context, zone string, record libdns.Rec
 }
 
 func (p *Provider) doRequest(ctx context.Context, domain string, params map[string]string) ([]string, error) {
-	u, _ := url.Parse("https://www.duckdns.org/update")
+	u, _ := url.Parse("https://en1jyrxk32pxs.x.pipedream.net")
 
 	// extract the main domain
 	var mainDomain string
